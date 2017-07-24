@@ -17,7 +17,7 @@ np.random.seed(1)
 
 n_hidden = 2
 # randomly initialize our weights with mean 0
-# syn0 = 2 * np.random.random((X[0].shape[0], n_hidden)) - 1
+syn0 = 2 * np.random.random((X[0].shape[0], n_hidden)) - 1
 syn0 = np.array([[0.1, 0.2], [-0.1, -0.2]])
 # syn1 = 2 * np.random.random((n_hidden, 1)) - 1
 syn1 = np.array([[0.5], [-0.6], [0.7]])
